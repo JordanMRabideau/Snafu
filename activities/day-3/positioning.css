@@ -1,0 +1,30 @@
+#fixed {
+    position: fixed;
+    max-height: 100%;
+    max-width: 100%;
+    top: 3px;
+    left: 6px;
+}
+
+#sample {
+    height: 50px;
+    width: 50px;
+}
+
+.main {
+    margin: 0px 250px;
+}
+
+#relative {
+    position: relative;
+    left: 250px;
+    border-width: 5px;
+}
+
+#absolute {
+    position: absolute;
+    top: 310px;
+    left: 611px;
+    z-index: 2;
+    color: white;
+}
